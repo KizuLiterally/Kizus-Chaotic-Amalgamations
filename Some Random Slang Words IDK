@@ -1,0 +1,10 @@
+word = input("Type in the words you don't understand/Ketik kata yang tidak kamu mengerti(use all caps!/gunakan huruf kapital semua!): ")
+meme_dict = {
+            "IDC": "I don't care/Aku tidak peduli",
+            "IDK": "I don't know/Aku tidak tahu",
+            "WTF": "What the F***/Hah (Kasar)",
+            "FYI": "For you information/Informasi untuk kamu"
+            "IMHO": "In my humble opinion/Dalam opiniku"
+            }
+if word in meme_dict.keys():
+    print(meme_dict[word])
